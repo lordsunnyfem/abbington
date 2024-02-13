@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    max-width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block-left;
+    max-width: 250px;
+    min-width: 100px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #D3CDAE;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    color: #450A0A;
+}
+
+.abbington {
+    font-weight: 900;
+    color:#450A0A;
+}
+
+#main {
+    width: 70%;
+    background-color: #FFF; 
+    margin: 15px auto;
+    max-width: 1000px;
+}
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    float: auto;
+    background-color: #D3CDAE;
+    }
+
+nav a {
+    color: #590000;
+    text-decoration: none;
+    font-size: large;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.flex-container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    flex: 31%;
+    margin: 1%;
+    justify-content: center;
+    display: flex;
+}
+
+.flex-container img {
+    width: 90%;
+    border: 10px solid #897c29;
+}
+.top {
+text-align: center;
+}
+
+.bottom {
+text-align: center;
+}
+
+
+/*contact page map */
+
+iframe {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Footer */
+
+.opening {
+    margin: 0 auto;
+    display: block;
+    float: left;
+    padding-left: 10%
+    }
+.contact {
+    margin: 0 auto;
+    display: block;
+    float: right;
+    padding-right: 10%;
+}
+.copyright {
+    text-align: center;
+    display: bottom-center;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color:#D3CDAE;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+.sectionpic{
+    width: 100%;
+    height: 350px;
+}
+
+/* mobile friendly code */
+@media (max-width: 668px){
+          
+    .flex-container >div {
+        flex: 90%;
+    }  
+}
+@media (max-width: 300px){
+    nav.logo {
+           width: url("../images/aflogo1.png")
+       }
+}
+   
